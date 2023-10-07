@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Poppins sans-serif;
+
+}
+
+/*header start*/
+#header {
+    padding: 25px 0;
+    -webkit-box-shadow: 0 8px 10px -1px rgba(34, 60, 80, 0.36);
+    -moz-box-shadow: 0 8px 10px -1px rgba(34, 60, 80, 0.36);
+    box-shadow: 0 8px 10px -1px rgba(34, 60, 80, 0.36);
+
+}
+
+.header-logo h1 {
+    color: #173A56;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+}
+
+.header-nav a {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 10px;
+}
+
+.header-nav a:hover {
+    text-decoration-line: underline;
+    color: blue;
+    transition: .5s;
+}
+
+.header-btn-one {
+    color: #173A56;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 1px solid #BCD0E5;
+    padding: 12px 25px;
+}
+
+.header-btn-one:hover {
+    border: 2px solid red;
+    background: blue;
+    transition: .4s;
+}
+
+.header-btn-two {
+    margin-left: 5px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    background: #02897A;
+    padding: 12px 25px;
+}
+
+.header-btn-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #02897A;
+    font-size: 20px;
+    width: 32px;
+    height: 32px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background: #F3F3F3;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*header end*/
+
+/*work start*/
+#work {
+
+}
+
+.work h1 {
+    padding-top: 145px;
+    color: #22343D;
+    font-size: 40px;
+    font-weight: 700;
+    /*line-height: 60px;*/
+}
+
+.work p {
+
+    padding: 18px 0 48px 0;
+    color: #22343D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.work button {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 41px;
+    border-radius: 4px;
+    background: #02897A;
+}
+
+.work button:hover {
+    color: blue;
+    background: magenta;
+}
+
+.work-icon h2 {
+    color: #02897A;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration-line: underline;
+}
+
+.work-icon ion-icon {
+    padding-left: 5px;
+    font-size: 30px;
+    color: #02897A;
+}
+
+.work-icon {
+    display: flex;
+    align-items: center;
+}
+
+.work-img {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+/*work end*/
+
+
+/*<!--for start-->*/
+#for {
+
+}
+
+.for h1 {
+    padding-top: 233px;
+    color: #22343D;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.for-block a {
+    color: #FFFFFF;
+    padding: 16px 16px;
+    border-radius: 40%;
+    background: #02897A;
+}
+
+.for-block h2 {
+    padding: 30px 0 18px 0;
+    color: #22343D;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.for-block p {
+
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.for-block {
+    /*display: flex;*/
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.for-block a:hover {
+    background: greenyellow;
+    color: red;
+    transition: .5s;
+}
+
+.for-block {
+}
+
+.for-btn button {
+    padding: 15px 32px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    background: #02897A;
+}
+
+.for-btn button:hover {
+    background: blue;
+    color: black;
+    transition: .5s;
+}
+
+/*<!--for end-->*/
+
+/*eff start*/
+.eff h2{
+    padding: 273px 0 8px 0;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+}
+.eff h1{
+    padding-bottom: 23px;
+    color: #22343D;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.eff p{
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.eff h4{
+    padding: 30px 0 12px 0;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+}
+.eff-img img{
+    display: flex;
+}
+
+
+
+/*eff end*/
+
+
+
+
+
+
+
+
